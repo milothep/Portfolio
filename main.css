@@ -1,0 +1,88 @@
+.Container {
+  float: left;
+  margin-left: 2%;
+  position: relative;
+  top: -15px;
+}
+
+.Portfolio {
+  font-family: 'Raleway';
+  text-align: left;
+  margin-left: 50px;
+}
+
+#Portfolio {
+  font-size: 3em;
+  margin-top: 0;
+  margin-bottom: -5px;
+}
+
+#Milo {
+  font-size: 1em;
+  margin-top: 0;
+}
+
+.Nav {
+  margin-top: 50%;
+  margin-left: 50px;
+  font-family: 'Raleway';
+  font-weight: bold;
+  border-left: 2px black solid;
+  letter-spacing: 1.5px;
+  line-height: 20px;
+  transform: translateY(-20%);
+}
+
+.Nav ul {
+  padding-left: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px
+}
+
+#Hipshot01 {
+  width: 35%;
+  height: 35%;
+  margin: 3% 0 15% 31%;
+  display: block;
+}
+
+#Hipshot02 {
+  width: 57%;
+  height: 57%;
+  margin: 3% 0 15% 20%;
+  display: block;
+}
+
+#Hipshot03 {
+  width: 35%;
+  height: 35%;
+  margin: 3% 0 15% 31%;
+  display: block;
+}
+
+#Hipshot04 {
+  width: 35%;
+  height: 35%;
+  margin: 3% 0 15% 31%;
+  display: block;
+}
+
+#Hipshot05 {
+  width: 35%;
+  height: 35%;
+  margin: 3% 0 15% 31%;
+  display: block;
+}
+
+#Hipshot06 {
+  width: 57%;
+  height: 57%;
+  margin: 3% 0 15% 20%;
+  display: block;
+}
