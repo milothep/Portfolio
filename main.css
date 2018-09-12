@@ -15,6 +15,7 @@ a {
   float: left;
   margin-left: 2%;
   position: fixed;
+  transform: translateY(-4%);
 }
 
 .Header {
