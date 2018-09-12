@@ -1,14 +1,27 @@
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .Container {
   float: left;
   margin-left: 2%;
-  position: relative;
-  top: -15px;
+  position: fixed;
 }
 
-.Portfolio {
+.Header {
   font-family: 'Raleway';
   text-align: left;
   margin-left: 50px;
+  transform: translateY(200%);
 }
 
 #Milo {
@@ -23,64 +36,29 @@
 }
 
 .Nav {
-  margin-top: 50%;
-  margin-left: 50px;
   font-family: 'Raleway';
+  text-transform: capitalize;
   font-weight: bold;
-  border-left: 2px black solid;
-  letter-spacing: 1.5px;
-  line-height: 20px;
-  transform: translateY(-20%);
+  font-size: 2em;
+  letter-spacing: ;
+  line-height: 40px;
+  margin-top: 50%;
+  margin-left: 10px;
+  transform: translateY(10%);
 }
 
-.Nav ul {
-  padding-left: 10px;
+li:hover {
+  color: red;
 }
 
-ul {
-  list-style: none;
-}
-
-li {
-  margin-bottom: 10px
-}
-
-#Hipshot01 {
+#HipshotP {
   width: 35%;
   height: 35%;
   margin: 3% 0 15% 31%;
   display: block;
 }
 
-#Hipshot02 {
-  width: 57%;
-  height: 57%;
-  margin: 3% 0 15% 20%;
-  display: block;
-}
-
-#Hipshot03 {
-  width: 35%;
-  height: 35%;
-  margin: 3% 0 15% 31%;
-  display: block;
-}
-
-#Hipshot04 {
-  width: 35%;
-  height: 35%;
-  margin: 3% 0 15% 31%;
-  display: block;
-}
-
-#Hipshot05 {
-  width: 35%;
-  height: 35%;
-  margin: 3% 0 15% 31%;
-  display: block;
-}
-
-#Hipshot06 {
+#HipshotL {
   width: 57%;
   height: 57%;
   margin: 3% 0 15% 20%;
