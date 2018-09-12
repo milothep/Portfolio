@@ -48,7 +48,7 @@ a {
   transform: translateY(10%);
 }
 
-li:hover {
+#Nav:hover {
   color: red;
 }
 
